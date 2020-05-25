@@ -1,0 +1,30 @@
+﻿<Window x:Name="Hopper_Size_Calculator" x:Class="HopperSizeCalculator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HopperSizeCalculator"
+        mc:Ignorable="d"
+        Title="Hopper Size" Height="450" Width="800">
+    <!--Finestres entrada de dades -->
+    <Border Padding="20" Background="AliceBlue" BorderBrush="Azure">
+          
+            
+        <StackPanel Grid.Column="0" Margin="0 0 580 0">
+            <TextBlock Text="Pes injectada" FontWeight="Bold" />
+            <TextBox Padding="2" />
+            <TextBlock Text="Cicle" FontWeight="Bold" />
+            <TextBox Padding="2" />
+            <TextBlock Text="Temps assecatge min" FontWeight="Bold" />
+            <TextBox Padding="2" />
+            <TextBlock Text="Temps assecatge Max" FontWeight="Bold" />
+            <TextBox Padding="2" />
+
+        </StackPanel>
+        
+    </Border>
+    
+       
+      
+    
+</Window>
